@@ -233,4 +233,16 @@ footer{
 .logos {
     display: flex;
     flex-direction: column;
+    gap: 50px
+}
+
+.logos .logos-web {
+    display: flex;
+}
+
+.logos-web > li {
+    padding-left: 10px
+}
+
+.menu-footer > li:nth-child(2) {
 }

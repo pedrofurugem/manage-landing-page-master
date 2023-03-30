@@ -164,22 +164,23 @@ main {
     margin-bottom: 20px;
 }
 
+
 .cards .people-card {
     background-color: #FAFAFA;
     text-align: center;
     width: 350px;
-    height: 170px
+    height: 170px;
 }
+
+.Shanai-Gough {
+    display: none;
+}
+
 
 .people-card .perfil-image {
     width: 50px;
     transform: translateY(-50%); 
 }
-
-/*
-.Shanai-Gough {
-    opacity: 0;
-}*/
 
 .people-card .name {
     font-size: 1em;
@@ -218,8 +219,6 @@ footer{
     margin-top: 100px;
 }
 
-
-
 .section-orange .title {
     font-size: 2em;
     color: #FFF;
@@ -248,13 +247,16 @@ footer{
     justify-content: space-around;
 }
 
+.logos .logo {
+    filter: invert(1);
+}
+
 .logos {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 50px;
-    
 }
 
 .logos .logos-web {
@@ -266,7 +268,7 @@ footer{
 }
 
 .logos-web li a:hover {
-    color: red /*usar a mesma mudança de cor do logo aqui*/
+    fill: red/*usar a mesma mudança de cor do logo aqui*/
 }
 
 .menu-footer {

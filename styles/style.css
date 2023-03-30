@@ -161,6 +161,7 @@ main {
     gap: 15px;
     margin-top: 100px;
     opacity: 1;
+    margin-bottom: 20px;
 }
 
 .cards .people-card {
@@ -175,9 +176,10 @@ main {
     transform: translateY(-50%); 
 }
 
+/*
 .Shanai-Gough {
     opacity: 0;
-}
+}*/
 
 .people-card .name {
     font-size: 1em;
@@ -190,6 +192,18 @@ main {
     
 }
 
+.buttons-select button {
+    display: none; /*inline - responsive*/
+    width: 10px;
+    height: 10px;
+    border: 1px solid var(--button_color);
+    border-radius: 10px
+}
+
+.buttons-select .selected {
+    background-color: var(--button_color);;
+}
+
 footer{
     margin-top: 10px;
 }
@@ -200,7 +214,11 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 450px;
+    margin-top: 100px;
 }
+
+
 
 .section-orange .title {
     font-size: 2em;
@@ -223,7 +241,7 @@ footer{
 }
 
 .section-black {
-    background-color: lightgrey;
+    background-color: #000;
     min-height: 25vh;
     display: flex;
     align-items: center;
@@ -267,4 +285,52 @@ footer{
 .menu-footer-list  li  a {
     color: var(--white-color);
     cursor: pointer;
+}
+
+.menu-footer-list  li  a:hover {
+    color: var(--button_color)
+}
+
+.input-and-atribuition {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.input-email {
+    display: flex;
+    gap: 10px
+}
+
+.input-email input{
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.input-email .button-footer {
+    background-color: var(--button_color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 55px;
+    height: 40px;
+    color: var(--white-color);
+    font-weight: bold;
+    border: none;
+    cursor: pointer
+}
+
+.input-email .button-footer:hover {
+    background-color: #F78F77;
+}
+
+.attribution {
+    font-size: 10px;
+    color: #fff
+}
+
+.attribution a {
+    font-size: 10px;
+    color: #fff
 }

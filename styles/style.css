@@ -203,7 +203,7 @@ footer{
 }
 
 .section-orange .title {
-    font-size: 1.8em;
+    font-size: 2em;
     color: #FFF;
     width: 25%
 }
@@ -233,16 +233,38 @@ footer{
 .logos {
     display: flex;
     flex-direction: column;
-    gap: 50px
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
 }
 
 .logos .logos-web {
     display: flex;
 }
 
-.logos-web > li {
-    padding-left: 10px
+.logos-web li a {
+    padding: 5px
 }
 
-.menu-footer > li:nth-child(2) {
+.logos-web li a:hover {
+    color: red /*usar a mesma mudança de cor do logo aqui*/
+}
+
+.menu-footer {
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-between;
+    width: 20%
+}
+
+.menu-footer-list {
+    line-height: 30px;
+    font-size: 0.8em;
+    
+}
+
+.menu-footer-list  li  a {
+    color: var(--white-color);
+    cursor: pointer;
 }

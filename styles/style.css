@@ -36,6 +36,10 @@ main {
     cursor: pointer;
 }
 
+.menu-hamburger {
+    display: none;
+}
+
 .Button {
     background-color: var(--button_color);
     display: flex;

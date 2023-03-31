@@ -40,7 +40,7 @@ main {
     display: none;
 }
 
-.Button {
+.button-header {
     background-color: var(--button_color);
     display: flex;
     align-items: center;
@@ -83,6 +83,19 @@ main {
     margin-bottom: 25px;
     width: 52%;
     line-height: 20px;
+}
+
+.content-1 .Bring-everyone .button-content{
+    background-color: var(--button_color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    width: 120px;
+    height: 40px;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
 }
 
 /*content 2*/
@@ -196,6 +209,19 @@ main {
     color: var(--text-color);
     font-size: 0.8em;
     
+}
+
+.section-peoples .button-peoples{
+    background-color: var(--button_color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    width: 120px;
+    height: 40px;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
 }
 
 .buttons-select button {

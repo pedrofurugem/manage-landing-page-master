@@ -49,9 +49,19 @@
         justify-content: center;
     }
 
+    footer {
+        max-width: 820px;
+    }
 
+    .section-orange {
+        flex-direction: column;
+    }
+
+    .section-black {
+        flex-direction: column;
+    }
 }
 
 @media(max-width: 414px){
-    
+
 }

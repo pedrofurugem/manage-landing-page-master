@@ -23,6 +23,7 @@
 
     .content-1{
         flex-direction: column-reverse;
+        margin-bottom: 60px;
     }
 
     .content-1 .Bring-everyone {
@@ -43,10 +44,47 @@
         line-height: 30px;
     }
 
+    .content-1 .Bring-everyone .button-content {
+        width: 150px;
+        height: 50px
+    }
+
     .content-2 {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    .content-2 .whats-different {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content-2 .whats-different .title{
+        width: 75%;
+        font-size: 2.5em;
+    }
+
+    .content-2 .whats-different .description{
+        font-size: 1.2em;
+        width: 95%;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .articles {
+        width: 60%
+    }
+
+    .content-2 .article .number-title {
+        background-color: var(--pink_color);
+    } 
+
+   .article .article-description .description {
+    margin-left: 0px;
     }
 
     footer {

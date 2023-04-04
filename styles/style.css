@@ -117,30 +117,28 @@ main {
     line-height: 20px;
 }
 
-.article {
+.article .number-title {
     display: flex;
     align-items: first baseline;
-    gap: 20px;
-    text-align:initial;
-    margin-left: 30px;
+    gap: 25px;
 }
 
 .article .number {
     background-color: var(--button_color);
-    width: 100px;
-    height: 30px;
-    border-radius: 25px;;
+    color: var(--white-color);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #FFF;
-    font-size: 0.8em;
+    width: 45px;
+    height: 25px;
+    border-radius: 25px;
+    font-size: 0.7em;
     font-weight: bold;
 }
 
-.article-description .title {
+.number-title .title {
     color: var(--title_color);
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -149,8 +147,9 @@ main {
     color: var(--text-color);
     font-size: 0.8em;
     margin-bottom: 20px;
-    width: 64%;
+    width: 60%;
     line-height: 20px;
+    margin-left: 72px;
 }
 
 .section-peoples {

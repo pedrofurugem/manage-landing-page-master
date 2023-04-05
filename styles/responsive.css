@@ -124,8 +124,19 @@
 
     .section-orange {
         flex-direction: column;
-        gap: 0px;
+        gap: 25px;
         justify-content: center;
+    }
+
+    .section-orange .title {
+        text-align: center;
+        font-size: 2.2em;
+        width: 32%;
+    }
+
+    .section-orange .Button-footer { 
+        width: 150px;
+        height: 50px;
     }
 
     .section-black {

@@ -76,15 +76,36 @@
     }
 
     .articles {
-        width: 60%
+        width: 60%;
+    }
+
+    .article {
+        margin-bottom: 30px;
     }
 
     .content-2 .article .number-title {
         background-color: var(--pink_color);
+        border-radius: 25px 0px 0px 25px;
+        gap: 10px;
+        height: 35px;
     } 
 
+    .article .number-title .number {
+        width: 60px;
+        height: 35px;
+        font-size: 0.9em;
+    }
+
+    .article .number-title .title{
+        font-size: 1.1em;
+    }
+
    .article .article-description .description {
-    margin-left: 0px;
+        margin-top: 10px;
+        margin-left: 0px;
+        font-size: 1.1em;
+        width: 83%;
+        line-height: 30px;
     }
 
     footer {

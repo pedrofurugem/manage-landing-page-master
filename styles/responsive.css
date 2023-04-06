@@ -141,13 +141,29 @@
 
     .section-black {
         flex-direction: column-reverse;
+        min-height: 30vh;
+        margin-bottom: 30px;
     }
 
     .section-black .logos {
         flex-direction: column-reverse;
     }
+
+    .section-black .input-and-atribuition .input-email input {
+        width: 250px;
+        padding: 10px;
+    }
+
+    .section-black .input-and-atribuition .input-email .button-footer{
+        width: 80px;
+        height: 45px;
+    }
+
+    .section-black .menu-footer .menu-footer-list{
+        width: 800px;
+    }
 }
 
 @media(max-width: 414px){
-
+    
 }

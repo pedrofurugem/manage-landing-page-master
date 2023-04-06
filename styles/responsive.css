@@ -66,6 +66,7 @@
     .content-2 .whats-different .title{
         width: 75%;
         font-size: 2.5em;
+        text-align: center;
     }
 
     .content-2 .whats-different .description{
@@ -171,10 +172,42 @@
 
     .content-1 .Bring-everyone .title{
         width: 120%;
-        font-size: 2.2em;
+        font-size: 2em;
     }
     .content-1 .Bring-everyone .description{
-        font-size: 1em;
-        width: 120%;
+        font-size: 0.9em;
+        width: 110%;
+    }
+
+    .content-2 .whats-different .title {
+        font-size: 2em;
+        width: 150%;
+    }
+
+    .content-2 .whats-different .description{
+        font-size: 0.9em;
+        width: 138%;
+    }
+
+    .articles {
+        width: 80%;
+    }
+
+    .articles .article .number-title {
+        
+    }
+
+    .articles .article .number-title .title{
+        font-size: 0.9em;
+    }
+
+    .articles .article .article-description .description {
+        font-size: 0.9em;
+        width: 110%;
+    }
+
+    .section-orange .title {
+        font-size: 2em;
+        width: 50%;
     }
 }

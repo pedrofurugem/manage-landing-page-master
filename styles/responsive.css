@@ -164,6 +164,13 @@
     }
 }
 
-@media(max-width: 414px){
-    
+@media(max-width: 415px){
+    .content-1 img {
+        width: 320px;
+    }
+
+    .content-1 .Bring-everyone .title{
+        width: 105%;
+        font-size: 2em;
+    }
 }

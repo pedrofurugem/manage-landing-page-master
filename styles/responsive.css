@@ -170,7 +170,11 @@
     }
 
     .content-1 .Bring-everyone .title{
-        width: 105%;
-        font-size: 2em;
+        width: 120%;
+        font-size: 2.2em;
+    }
+    .content-1 .Bring-everyone .description{
+        font-size: 1em;
+        width: 120%;
     }
 }

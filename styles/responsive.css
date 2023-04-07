@@ -109,6 +109,19 @@
         line-height: 30px;
     }
 
+    .cards .people-card {
+        opacity: 0;
+    }
+
+    .cards .people-card.selected {
+        opacity: 1;
+        z-index: 1;
+    }
+
+    .Shanai-Gough{
+        display: block;
+    }
+
     .section-peoples .buttons-select button {
         display: inline;
     }

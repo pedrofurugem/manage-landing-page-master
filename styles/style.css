@@ -173,6 +173,41 @@ main {
 
 .cards {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 15px;
+}
+
+.cards .people-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #FAFAFA;
+    width: 350px;
+}
+
+.cards .people-card .perfil-image {
+    width: 50px;
+    transform: translateY(-50%);
+}
+
+.cards .people-card .name {
+    font-size: 0.9em;
+    color: var(--title_color);
+}
+
+.cards .people-card .talk {
+    color: var(--text-color);
+    font-size: 0.7em;
+    padding: 20px;
+}
+
+/*
+.cards {
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
@@ -207,7 +242,7 @@ main {
     color: var(--text-color);
     font-size: 0.8em;
     
-}
+}*/
 
 .section-peoples .button-peoples{
     background-color: var(--button_color);
@@ -239,6 +274,7 @@ footer{
 }
 
 .section-orange {
+    width: 100%;
     background-color: var(--button_color);
     min-height: 25vh;  
     display: flex;
@@ -269,6 +305,7 @@ footer{
 }
 
 .section-black {
+    width: 100%;
     background-color: #000;
     min-height: 25vh;
     display: flex;
@@ -365,3 +402,5 @@ footer{
     font-size: 10px;
     color: #fff
 }
+
+/*transform: translateY(-50%);*/

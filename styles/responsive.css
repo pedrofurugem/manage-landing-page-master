@@ -109,6 +109,21 @@
         line-height: 30px;
     }
 
+    .cards {
+        position: relative;
+    }
+
+    .people-card {
+        opacity: 0;
+        position: absolute;
+    }
+    
+    .people-card.selected {
+        opacity: 1;
+        z-index: 5;
+    }
+
+    /*
     .cards .people-card {
         opacity: 0;
     }
@@ -121,15 +136,16 @@
     .Shanai-Gough{
         display: block;
     }
-
+    */
     .section-peoples .buttons-select button {
         display: inline;
+        margin-top: 100px;
     }
 
     .section-peoples .button-peoples{
         width: 150px;
         height: 50px;
-        margin-top: 30px;
+        margin-top: 50px;
     }
 
     footer {
@@ -178,7 +194,7 @@
     }
 }
 
-@media(max-width: 415px){
+@media(max-width: 450px){
     .content-1 img {
         width: 320px;
     }

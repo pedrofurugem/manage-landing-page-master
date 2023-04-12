@@ -1,9 +1,6 @@
 const btn_section = document.querySelectorAll('.btn')
 const cards = document.querySelectorAll('.people-card')
 
-console.log(btn_section)
-console.log(cards)
-
 btn_section.forEach((btn, index) => {
     btn.addEventListener('click', ()=> {
         const cardActive = document.querySelector('.active');

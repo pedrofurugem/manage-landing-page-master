@@ -206,9 +206,9 @@ main {
 }
 
 
-/*.Shanai-Gough {
+.cards .people-card.Shanai-Gough {
     display: none;
-}*/
+}
 
 .section-peoples .button-peoples{
     background-color: var(--button_color);

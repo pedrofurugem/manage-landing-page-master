@@ -111,6 +111,7 @@
 
     .cards {
         position: relative;
+        margin-top: 160px
     }
 
     .people-card {
@@ -118,25 +119,22 @@
         position: absolute;
     }
     
-    .people-card.selected {
-        opacity: 1;
-        z-index: 5;
-    }
-
-    /*
-    .cards .people-card {
-        opacity: 0;
-    }
-
-    .cards .people-card.selected {
+    .people-card.active {
         opacity: 1;
         z-index: 1;
     }
 
-    .Shanai-Gough{
-        display: block;
+    .cards .people-card .name {
+        font-size: 1em;
+        color: var(--title_color);
     }
-    */
+    
+    .cards .people-card .talk {
+        color: var(--text-color);
+        font-size: 1em;
+        padding: 20px;
+    }
+
     .section-peoples .buttons-select button {
         display: inline;
         margin-top: 100px;

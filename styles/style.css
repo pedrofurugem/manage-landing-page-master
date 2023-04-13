@@ -5,8 +5,10 @@ body {
     background-repeat: no-repeat; /* repeat-x;*/
     background-position: right -70px top -180px;
     
-    background-image: url(../images/bg-tablet-pattern.svg);
+    /*background-image: url(../images/bg-tablet-pattern.svg);*/
 }
+
+
 
 main {
     max-width: 1050px;
@@ -176,7 +178,7 @@ main {
     align-items: center;
     justify-content: center;
     margin-top: 100px;
-    gap: 15px;
+    gap: 20px;
 }
 
 .cards .people-card {
@@ -314,7 +316,6 @@ footer{
 .menu-footer-list {
     line-height: 30px;
     font-size: 0.8em;
-    
 }
 
 .menu-footer-list  li  a {

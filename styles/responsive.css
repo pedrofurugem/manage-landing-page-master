@@ -265,3 +265,18 @@
         width: 65%;
     }
 }
+
+@media(max-width: 395px){
+    .section-orange {
+        padding: 30px;
+    }
+    
+    .section-orange .title {
+        font-size: 2em;
+        width: 70%;
+    }
+}
+
+@media(max-width: 300px){
+    
+}

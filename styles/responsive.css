@@ -189,7 +189,30 @@
 
     .menu-footer {
         width: 35%;
+        margin-top: 30px;
     }
+
+    .menu-footer .menu-footer-list{
+        font-size: 0.9em;
+        line-height: 40px;
+    }
+
+    .logos .logo {
+        width: 220px;
+    }
+
+    .logos-web {
+        margin-top: 30px;
+    }
+
+    .logos-web li a {
+        padding: 15px
+    }
+
+    .logos .logos-web li a img {
+        width: 35px;
+    }
+    
 }
 
 @media(max-width: 450px){
@@ -236,5 +259,9 @@
     .section-orange .title {
         font-size: 2em;
         width: 50%;
+    }
+
+    .menu-footer {
+        width: 65%;
     }
 }

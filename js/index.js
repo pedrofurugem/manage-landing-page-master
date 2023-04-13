@@ -13,3 +13,13 @@ btn_section.forEach((btn, index) => {
         btn_section[index].classList.add('selected');
     })
 })
+
+//input action
+const btn_footer = document.querySelector('.button-footer')
+const input = document.querySelector('.input-email')
+console.log(btn_footer)
+console.log(input)
+
+btn_footer.addEventListener('click', () => {
+    
+})

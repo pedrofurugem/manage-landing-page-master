@@ -343,15 +343,22 @@ footer{
 
 .input-email {
     display: flex;
-    gap: 10px
+    flex-direction: column;
 }
 
-.input-email input{
+.input-area .input-email {
     border-radius: 25px;
-    padding: 5px;
+    padding: 10px;
 }
 
-.input-email .button-footer {
+.input-area .alert {
+    color: red;
+    font-size: 0.7em;
+    margin-left: 15px;
+    display: none
+}
+
+.input-and-atribuition .button-footer {
     background-color: var(--button_color);
     display: flex;
     align-items: center;
@@ -380,3 +387,7 @@ footer{
 }
 
 /*transform: translateY(-50%);*/
+
+.border-red {
+    border: 1px solid red;
+}

@@ -20,6 +20,14 @@ const input = document.querySelector('.input-email')
 console.log(btn_footer)
 console.log(input)
 
-btn_footer.addEventListener('click', () => {
-    
+btn_footer.addEventListener('click', btn => {
+    btn.preventDefault()
+    const mensage = document.querySelector('label')
+    input.forEach((border, index) => {
+        if(border.value === ''){
+            border.classList.add('border-red')
+        } else {
+            border.classList.remove('border-red')
+        }
+    })
 })

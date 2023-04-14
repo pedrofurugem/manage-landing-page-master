@@ -26,8 +26,10 @@ btn_footer.addEventListener('click', btn => {
     input.forEach((border, index) => {
         if(border.value === ''){
             border.classList.add('border-red')
+            mensage[index].classList.add('alert')
         } else {
             border.classList.remove('border-red')
+            mensage[index].classList.remove('alert')
         }
     })
 })

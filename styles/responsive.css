@@ -327,4 +327,33 @@
     .section-peoples .section-peoples-title .title {
         font-size: 1.5em;
     }
+
+    .cards .people-card { 
+        width: 250px;
+    }
+
+    .cards .people-card .talk {
+        font-size: 0.7em;
+    }
+
+    .section-peoples .button-peoples{
+        width: 100px;
+    }
+
+    .section-orange .title {
+        font-size: 1.5em;
+    }
+
+    .section-orange .Button-footer {
+        width: 100px;
+        height: 40px;
+    }
+
+    .section-black .input-and-atribuition .input-area .input-email {
+        width: 180px
+    }
+
+    .logos .logos-web li a img {
+        width: 20px;
+    }
 }

@@ -338,7 +338,7 @@ footer{
     display: flex;
     align-items: first baseline;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
 }
 
 .input-email {

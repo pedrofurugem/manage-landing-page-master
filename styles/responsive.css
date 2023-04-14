@@ -177,14 +177,12 @@
         flex-direction: column-reverse;
     }
 
-    .section-black .input-and-atribuition .input-email input {
+    .input-area .input-email {
         width: 250px;
-        padding: 10px;
     }
 
-    .section-black .input-and-atribuition .input-email .button-footer{
-        width: 80px;
-        height: 45px;
+    .input-and-atribuition .button-footer {
+        width: 65px;
     }
 
     .menu-footer {
@@ -198,7 +196,7 @@
     }
 
     .logos .logo {
-        width: 220px;
+        width: 180px;
     }
 
     .logos-web {
@@ -287,12 +285,46 @@
     }
 
     .content-1 .Bring-everyone .description {
-        font-size: 0.8em;
-        width: 150%;
+        font-size: 0.7em;
+        width: 130%;
     }
 
     .content-1 .Bring-everyone .button-content {
         width: 110px;
         height: 40px;
+    }
+
+    .content-2 .whats-different .title {
+        font-size: 1.5em
+    }
+
+    .content-2 .whats-different .description {
+        font-size: 0.7em;
+        width: 165%;
+    }
+
+    .articles {
+        
+    }
+
+    .articles .article .number-title {
+        
+    }
+
+    .articles .article .number-title .number {
+        
+    }
+
+    .articles .article .number-title .title {
+        font-size: 0.7em;
+        width: 300px
+    }
+
+    .articles .article .article-description .description {
+        font-size: 0.7em;
+    }
+
+    .section-peoples .section-peoples-title .title {
+        font-size: 1.5em;
     }
 }
